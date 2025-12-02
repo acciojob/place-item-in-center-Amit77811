@@ -1,2 +1,25 @@
 
-/* Your CSS Code here. */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.holder {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  width: 100vw; /* Takes full viewport width */
+  height: 100vh; /* Takes full viewport height */
+}
+
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: flex; /* To center the text within the item */
+  justify-content: center;
+  align-items: center;
+  color: white; /* For better visibility of the text */
+  text-align: center;
+}
